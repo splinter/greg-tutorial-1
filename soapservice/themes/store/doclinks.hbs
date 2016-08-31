@@ -1,0 +1,22 @@
+<div class="table-responsive">
+    <div class="col-lg-12">
+        <h4>Doc Links</h4><hr>
+        <div class="col-lg-12 table table-striped table-hover divrow">
+            {{#if attributes.docLinks_documentType}}
+            <div class="col-lg-1">{{attributes.docLinks_documentType}}</div>
+            <div class="col-lg-6">{{attributes.docLinks_url}}</div>
+            <div class="col-lg-5">{{attributes.docLinks_documentComment}}</div>
+            {{/if}}
+            {{#if attributes.docLinks_documentType1}}
+            <div class="col-lg-1">{{attributes.docLinks_documentType1}}</div>
+            <div class="col-lg-6">{{attributes.docLinks_url1}}</div>
+            <div class="col-lg-5">{{attributes.docLinks_documentComment1}}</div>
+            {{/if}}
+            {{#if attributes.docLinks_documentType2}}
+            <div class="col-lg-1">{{attributes.docLinks_documentType2}}</div>
+            <div class="col-lg-6">{{attributes.docLinks_url2}}</div>
+            <div class="col-lg-5">{{attributes.docLinks_documentComment2}}</div>
+            {{/if}}
+        </div>
+    </div>
+</div>

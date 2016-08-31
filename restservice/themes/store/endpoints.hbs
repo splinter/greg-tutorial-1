@@ -1,0 +1,13 @@
+<div class="table-responsive">
+    {{#if attributes.endpoints_entry}}
+    <div class="col-lg-12">
+        <h4>Endpoints</h4><hr>
+        <div class="col-lg-12 table table-striped table-hover divrow">
+            {{#each attributes.endpoints_entry}}
+               <div class="col-lg-2">{{name}}</div>
+               <div class="col-lg-10">{{value}}</div>
+            {{/each}}
+        </div>
+    </div>
+    {{/if}}
+</div>
